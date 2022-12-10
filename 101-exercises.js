@@ -49,6 +49,7 @@ addToDone("Exercise 1 is correct.");
 // For more on arrays, see https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Arrays
 // Create a variable named fruits and assign it an array of strings containing the following fruits.
 // mango, banana, guava, kiwi, and strawberry.
+const fruits = new Array("mango", "banana", "guava", "kiwi", "strawberry");
 
 assert(fruits, ["mango", "banana", "guava", "kiwi", "strawberry"], "Exercise 2");
 addToDone("Exercise 2 is correct.");
@@ -56,6 +57,7 @@ addToDone("Exercise 2 is correct.");
 // Exercise 3
 // Create a variable named vegetables and assign it an array of strings containing the following vegetables.
 // eggplant, broccoli, carrot, cauliflower, and zucchini
+const vegetables = ["eggplant", "broccoli", "carrot", "cauliflower", "zucchini"];
 
 assert(vegetables, ["eggplant", "broccoli", "carrot", "cauliflower", "zucchini"], "Exercise 3");
 addToDone("Exercise 3 is correct.");
@@ -63,6 +65,7 @@ addToDone("Exercise 3 is correct.");
 
 // Exercise 4
 // Create a variable named numbers and assign it an array of numbers, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
 assert(numbers, [1, 2, 3, 4, 5, 6, 7, 8, 9, 10], "Exercise 4");
 addToDone("Exercise 4 is correct.");
